@@ -1,6 +1,6 @@
 services:
   express-app: 
-    image: express-app
+    image: samikazan/devops_with_docker:latest
     build:
       context: ./express-app
     ports:
