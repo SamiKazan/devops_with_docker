@@ -27,4 +27,4 @@ jobs:
       with:
         context: ./express-app
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/devopsdockerhy:latest
+        tags: ${{ secrets.DOCKER_USERNAME }}/devopswithdocker:latest
